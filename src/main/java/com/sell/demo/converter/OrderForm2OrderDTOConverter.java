@@ -17,9 +17,6 @@ public class OrderForm2OrderDTOConverter {
     public static OrderDTO convert(OrderForm orderForm) {
         Gson gson = new Gson();
 
-
-
-
         OrderDTO orderDTO = new OrderDTO();
         orderDTO.setBuyerName(orderForm.getName());
         orderDTO.setBuyerPhone(orderForm.getPhone());

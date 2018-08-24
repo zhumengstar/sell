@@ -74,7 +74,6 @@ public class BuyerProductController {
             productVO.setProductInfoVOList(productInfoVOList);
 
 
-
             //第二层封装
             productVOList.add(productVO);
         }
